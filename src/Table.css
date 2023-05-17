@@ -1,0 +1,175 @@
+ul.page-numbers {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+ul.page-numbers li {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+
+
+li.current {
+  background-color: #C6C6C6;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+}
+
+div.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.operations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-browse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+table th {
+  text-align: left;
+  font: normal normal 600 16px/21px Segoe UI;
+  letter-spacing: 0px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+table tr {
+  height: 60px;
+  border-bottom: 3px solid #cc4747;
+}
+
+td.settings {
+  display: flex;
+  justify-content: space-around;
+}
+
+span.bin {
+  background-image: url('./img/bin.svg');
+  width: 13px;
+  height: 17px;
+}
+
+td span {
+  display: block;
+}
+
+td span {
+  display: block;
+  font-weight: bold;
+}
+
+table {
+  text-align: left;
+}
+
+thead {
+  height: 100px;
+
+}
+
+tr.disabled {
+  color: rgb(213, 213, 213);
+}
+
+.nodisplay {
+  display: none;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  width: 650px;
+  height: 570px;
+  margin: auto;
+  background: #fff;
+  padding: 70px 50px 80px 50px;
+  box-sizing: border-box;
+
+}
+
+.modal.show {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.modal label {
+  display: block;
+  color: #33A3DC;
+}
+
+.modal .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.modal .col {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.modal input {
+  display: inline-block;
+  width: 220px;
+  text-align: left;
+}
+
+.close {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  transform: rotate(45deg);
+}
+
+.close i {
+  transform: rotate(45deg);
+}
+.switcher{
+  width: 41px;
+height: 23px;
+display:inline-block;
+background-color: #b6c6ec;
+position:relative;
+
+border-radius: 10px;
+}
+
+span.switcher-circle {
+  width: 25px;
+  height: 25px;
+  background-color: #708fda;
+  border-radius: 50%;
+  top: -1px;
+  position: absolute;
+}
+
+.switcher.off {
+  background-color: rgb(214, 113, 113); 
+}
+
+.switcher.off span.switcher-circle {
+  background-color: red;
+  position: absolute;
+  right:0;
+}

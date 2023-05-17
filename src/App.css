@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+html{background-color:#F3F3F3;}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width:80%;
+  width: 100%;
+  margin: auto;
+  background-color:#fff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+div.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1920px;
+  width: 80%;
+  margin: auto;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 50px;
+    line-height: 50px;
+}
+input:focus{border:none;}
+.circle{
+  display: inline-block;
+  position: absolute;
+  background-color: #305ECA;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: none;
+  font-size: 50px;
+  line-height: 73px;
+  color: #fff;
+}
+
+body{font-family:Segoe UI;}
+span.ico{display:inline-block; text-indent:-9999px;}
+
+span.bin {
+  background-image: url('./img/bin.svg');
+  width: 13px;
+  height: 17px;
+}
+span.profile {
+  background-image: url('./img/profile.svg');
+  width: 42px;
+  height: 42px;
+}
+
+span.key {
+  background-image: url('./img/key.svg');
+  width: 24px;
+  height: 19px;
+  background-color: #7E7EF1;
+  border-radius: 30px;
+}
+.btn{
+  width: 209px;
+height: 59px;
+border-radius: 100px;
+border:none;
+font:#fff;
+}
+.btn.small{
+  width: 142px;
+height: 41px;
+}
+.btn.disabled{ background-color: #979797;}
+.btn.blue{
+  background-color:#44A0D3;
+}
